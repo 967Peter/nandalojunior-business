@@ -1,0 +1,43 @@
+﻿body {
+  background: #0b5f0b;
+  font-family: Arial;
+  color: white;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+#searchBar {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-card {
+  background: #0f7f0f;
+  width: 150px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  background: #12a112;
+  transform: scale(1.1);
+}
+
+.service-card img {
+  width: 60px;
+}
